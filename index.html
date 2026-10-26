@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manas Purwar | Computer Science &amp; Engineering Portfolio</title>
+  <meta name="description" content="Futuristic black and gold portfolio of Manas Purwar, Computer Science Undergraduate at UIT RGPV Shivpuri. Built using pure HTML5 and CSS3 with ambient background interaction.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Manas Purwar | Computer Science &amp; Engineering Portfolio">
+  <meta property="og:description" content="Explore StayNest, Food Ordering Website, core CS competencies, and academic background. Pure HTML5 &amp; CSS3.">
+  <meta property="og:type" content="website">
+
+  <!-- Local stylesheet only: no JavaScript, libraries, or external dependencies. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       AMBIENT BACKGROUND PHOTO SYSTEM (CSS-ONLY FLOAT & HOVER PHYSICS)
+       ========================================================================= -->
+  <div class="bg-ambient-container" aria-hidden="true">
+    <div class="bg-photo-layer"></div>
+    <div class="bg-gradient-vignette"></div>
+    <div class="bg-grid-overlay"></div>
+  </div>
+
+  <!-- =========================================================================
+       HEADER & NAVIGATION
+       ========================================================================= -->
+  <header class="site-header">
+    <div class="container header-container">
+      <!-- Monogram Brand Logo -->
+      <a href="#home" class="brand-logo" aria-label="Manas Purwar Portfolio Home">
+        <span class="brand-badge" aria-hidden="true">MP</span>
+        <span>Manas Purwar<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- CSS-Only Mobile Menu Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </label>
+
+      <!-- Main Navigation Links -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- =======================================================================
+         HERO SECTION (CENTERED WITH RADIANT GOLDEN GLOW)
+         ======================================================================= -->
+    <section id="home" class="section hero-section">
+      <div class="container">
+        <div class="hero-inner-centered">
+          <!-- Status Tag -->
+          <div class="badge-gold">
+            <span class="badge-pulse" aria-hidden="true"></span>
+            <span>COMPUTER SCIENCE UNDERGRADUATE &bull; CLASS OF 2027</span>
+          </div>
+
+          <!-- Centered Main Title with Golden Glow -->
+          <h1 class="hero-main-title">
+            Building ideas into <br>
+            <span class="glow-gold-text">digital experiences.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Hello, I am <strong>Manas Purwar</strong>—a passionate developer from UIT RGPV Shivpuri and former Web Development &amp; Designing Intern at CODE ALPHA.
+          </p>
+
+          <p class="hero-description">
+            Focusing on scalable full-stack web applications, responsive frontend architecture, and rigorous problem-solving with <strong>Data Structures &amp; Algorithms</strong>.
+          </p>
+
+          <!-- Action Buttons with Golden Hover Glow -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-gold">
+              Explore My Projects &darr;
+            </a>
+          </div>
+
+          <!-- Metrics Bar -->
+          <div class="hero-metrics-bar">
+            <div class="metric-item">
+              <span class="metric-value">6.95</span>
+              <span class="metric-label">B-Tech CGPA (RGPV)</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">160 Days</span>
+              <span class="metric-label">GFG DSA Completed</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">2027</span>
+              <span class="metric-label">Graduation Year</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         ABOUT ME & PROFILE SECTION
+         ======================================================================= -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="badge-gold">Background &amp; Profile</span>
+          <h2 class="section-title">About My Journey</h2>
+          <p class="section-desc">
+            Academic education at UIT RGPV Shivpuri, practical internship experience, and engineering curiosity.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Biography Narrative -->
+          <article class="card-glass">
+            <h3 class="skill-title" style="margin-bottom: 14px;">Who I Am</h3>
+            <p class="bio-p">
+              I am an undergraduate Computer Science Engineering student with a deep passion for clean web interfaces, algorithmic efficiency, and full-stack software development.
+            </p>
+            <p class="bio-p">
+              During my internship at CODE ALPHA, I honed my skills building cross-device compatible layouts, modern UI components, and accessible digital experiences adhering to strict project deadlines.
+            </p>
+
+            <blockquote class="quote-highlight">
+              "Great software begins with solid engineering fundamentals, clean code, and relentless daily curiosity."
+            </blockquote>
+
+            <div style="margin-top: 24px;">
+              <span class="badge-gold" style="margin-bottom: 8px;">Core Academic Coursework</span>
+              <div class="course-chips-container">
+                <span class="course-chip">Operating Systems</span>
+                <span class="course-chip">Computer Org. &amp; Architecture</span>
+                <span class="course-chip">Database Management Systems</span>
+                <span class="course-chip">Computer Networks</span>
+                <span class="course-chip">Data Structures &amp; Algorithms</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Profile Photo & Academic Card -->
+          <aside class="card-glass profile-photo-card">
+            <!-- Profile Photo Frame -->
+            <div class="profile-img-frame">
+              <img src="myphoto.jpg" alt="Manas Purwar Profile Photo">
+            </div>
+
+            <h3 class="profile-name">Manas Purwar</h3>
+            <p class="profile-tagline">B-Tech Computer Science &bull; Class of 2027</p>
+            <p class="profile-location">UIT RGPV, Shivpuri, Madhya Pradesh, India</p>
+
+            <div style="margin-top: 22px; width: 100%; border-top: 1px solid var(--border-subtle); padding-top: 18px; text-align: left;">
+              <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 8px;">
+                <span style="color: var(--text-dim);">Degree:</span>
+                <span style="color: #FFFFFF; font-weight: 600;">B-Tech in CSE</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 8px;">
+                <span style="color: var(--text-dim);">Cumulative CGPA:</span>
+                <span style="color: var(--gold-primary); font-weight: 700;">6.95 / 10</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; font-size: 0.85rem;">
+                <span style="color: var(--text-dim);">Internship:</span>
+                <span style="color: var(--gold-light);">CODE ALPHA (Web Dev)</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <!-- Internship Experience Highlight -->
+        <div class="card-glass experience-box">
+          <div class="exp-header">
+            <div>
+              <h3 class="exp-role">Web Development &amp; Designing Intern</h3>
+              <p class="exp-company">CODE ALPHA &bull; Remote</p>
+            </div>
+            <span class="exp-dates">Oct 2025 &mdash; Nov 2025</span>
+          </div>
+          <div class="exp-list">
+            <p class="exp-item">
+              Developed multiple responsive landing pages and portfolio layouts as part of internship-based frontend training.
+            </p>
+            <p class="exp-item">
+              Designed cross-device compatible web interfaces ensuring optimized user experience across desktop, tablet, and mobile screens.
+            </p>
+            <p class="exp-item">
+              Implemented structured layouts and interactive UI components using semantic HTML, CSS3, and modern UI practices.
+            </p>
+            <p class="exp-item">
+              Followed industry-oriented development workflow while completing real-world task-based projects within strict deadlines.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         SKILLS SECTION
+         ======================================================================= -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="badge-gold">Technical Toolkit</span>
+          <h2 class="section-title">Skills &amp; Competencies</h2>
+          <p class="section-desc">
+            Verified skills developed through academic studies, internship tasks at CODE ALPHA, and daily algorithmic practice.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: HTML5 & CSS3 -->
+          <article class="skill-card">
+            <div class="skill-top">
+              <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+              <span class="skill-pill">Core Focus</span>
+            </div>
+            <h3 class="skill-title">HTML5 &amp; CSS3 Architecture</h3>
+            <p class="skill-desc">
+              Building accessible, responsive page architectures using semantic elements, CSS Grid, Flexbox, custom properties, and fluid media queries.
+            </p>
+            <div class="skill-subtags">
+              <span class="skill-subtag">Semantic HTML5</span>
+              <span class="skill-subtag">CSS Grid &amp; Flexbox</span>
+              <span class="skill-subtag">Tailwind CSS</span>
+              <span class="skill-subtag">Chakra UI</span>
+            </div>
+          </article>
+
+          <!-- Skill 2: Programming Languages -->
+          <article class="skill-card">
+            <div class="skill-top">
+              <div class="skill-icon" aria-hidden="true">C++</div>
+              <span class="skill-pill">Languages</span>
+            </div>
+            <h3 class="skill-title">C / C++ &amp; Java</h3>
+            <p class="skill-desc">
+              Solid understanding of low-level memory concepts, object-oriented programming paradigms, pointers, class design, and algorithmic problem-solving.
+            </p>
+            <div class="skill-subtags">
+              <span class="skill-subtag">C / C++</span>
+              <span class="skill-subtag">Java OOP</span>
+              <span class="skill-subtag">Python Scripting</span>
+            </div>
+          </article>
+
+          <!-- Skill 3: JavaScript & Frontend -->
+          <article class="skill-card">
+            <div class="skill-top">
+              <div class="skill-icon" aria-hidden="true">JS</div>
+              <span class="skill-pill">Frontend</span>
+            </div>
+            <h3 class="skill-title">JavaScript &amp; React</h3>
+            <p class="skill-desc">
+              Developing dynamic UI components, stateful web interfaces, client-side logic, DOM manipulation, and modern single-page application patterns.
+            </p>
+            <div class="skill-subtags">
+              <span class="skill-subtag">Modern ES6+</span>
+              <span class="skill-subtag">React.js</span>
+              <span class="skill-subtag">Async Workflows</span>
+            </div>
+          </article>
+
+          <!-- Skill 4: Backend & Database -->
+          <article class="skill-card">
+            <div class="skill-top">
+              <div class="skill-icon" aria-hidden="true">DB</div>
+              <span class="skill-pill">Full Stack</span>
+            </div>
+            <h3 class="skill-title">Node.js, Express &amp; MongoDB</h3>
+            <p class="skill-desc">
+              Creating RESTful APIs with Node.js and Express.js, server-rendered EJS templates, user authentication, and MongoDB data modeling.
+            </p>
+            <div class="skill-subtags">
+              <span class="skill-subtag">Node.js</span>
+              <span class="skill-subtag">Express.js</span>
+              <span class="skill-subtag">MongoDB</span>
+              <span class="skill-subtag">EJS</span>
+            </div>
+          </article>
+
+          <!-- Skill 5: Developer Tools -->
+          <article class="skill-card">
+            <div class="skill-top">
+              <div class="skill-icon" aria-hidden="true">git</div>
+              <span class="skill-pill">Tools</span>
+            </div>
+            <h3 class="skill-title">Git, GitHub &amp; Linux</h3>
+            <p class="skill-desc">
+              Managing code versions, branch hygiene, collaborative pull requests, open-source issue resolution, and Linux command-line operations.
+            </p>
+            <div class="skill-subtags">
+              <span class="skill-subtag">Git</span>
+              <span class="skill-subtag">GitHub</span>
+              <span class="skill-subtag">VS Code</span>
+              <span class="skill-subtag">Linux (Basic)</span>
+            </div>
+          </article>
+
+          <!-- Skill 6: CS Fundamentals -->
+          <article class="skill-card">
+            <div class="skill-top">
+              <div class="skill-icon" aria-hidden="true">CS</div>
+              <span class="skill-pill">Academics</span>
+            </div>
+            <h3 class="skill-title">Computer Science Core</h3>
+            <p class="skill-desc">
+              Thorough comprehension of theoretical and practical systems fundamentals taught in the Bachelor of Technology CSE curriculum.
+            </p>
+            <div class="skill-subtags">
+              <span class="skill-subtag">Operating Systems</span>
+              <span class="skill-subtag">Computer Architecture</span>
+              <span class="skill-subtag">DBMS</span>
+              <span class="skill-subtag">Networks</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         PROJECTS SECTION
+         ======================================================================= -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header-centered">
+          <span class="badge-gold">Featured Portfolio</span>
+          <h2 class="section-title">Projects &amp; Architectures</h2>
+          <p class="section-desc">
+            Full-stack and responsive frontend web projects designed and implemented with clean architecture.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: StayNest -->
+          <article class="project-card">
+            <!-- Pure CSS UI Mockup -->
+            <div class="project-preview" aria-hidden="true">
+              <div class="mockup-app">
+                <div class="mockup-bar">
+                  <span>StayNest // Explorer</span>
+                  <span style="color: #4ade80;">&bull; Active</span>
+                </div>
+                <div class="mockup-body">
+                  <div style="background-color: #202020; border: 1px solid #333; padding: 7px 12px; border-radius: 999px; font-size: 0.72rem; color: #a5a5a5; display: flex; justify-content: space-between;">
+                    <span>Find mountain villas...</span>
+                    <span style="color: var(--gold-primary); font-weight: bold;">Filter</span>
+                  </div>
+                  <div class="mockup-row">
+                    <span>Sunset Ridge Villa &bull; Goa</span>
+                    <span style="color: var(--gold-primary); font-weight: bold;">$120 / night</span>
+                  </div>
+                  <div class="mockup-row">
+                    <span>Pine Cottage &bull; Manali</span>
+                    <span style="color: var(--gold-primary); font-weight: bold;">$95 / night</span>
+                  </div>
+                  <div class="mockup-btn">
+                    Explore Listings &amp; Book &rarr;
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Content -->
+            <div class="project-content">
+              <span class="project-num">PROJECT 01 &bull; FULL-STACK APPLICATION</span>
+              <h3 class="project-title">StayNest &mdash; Stay Booking Web Application</h3>
+              <p class="project-desc">
+                Designed and developed a full-stack stay-booking web application enabling users to explore, create, and manage property listings. Implemented user authentication and authorization for secure listing creation, editing, reviews, and bookings with RESTful routes in Node.js, Express.js, and MongoDB.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">MongoDB</span>
+                <span class="tech-tag">EJS</span>
+                <span class="tech-tag">HTML5 &amp; CSS3</span>
+              </div>
+              <div>
+                <a href="https://github.com/purwarmanas" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  View on GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Food Ordering Website -->
+          <article class="project-card reversed">
+            <!-- Pure CSS UI Mockup -->
+            <div class="project-preview" aria-hidden="true">
+              <div class="mockup-app">
+                <div class="mockup-bar">
+                  <span>Food Express // Order</span>
+                  <span style="color: #a5a5a5;">Cart (2 items)</span>
+                </div>
+                <div class="mockup-body">
+                  <div style="display: flex; gap: 6px;">
+                    <span style="background-color: var(--gold-primary); color: #000; font-size: 0.65rem; font-weight: 700; padding: 2px 8px; border-radius: 999px;">All</span>
+                    <span style="background-color: #252525; color: #bbb; font-size: 0.65rem; padding: 2px 8px; border-radius: 999px;">Fast Food</span>
+                    <span style="background-color: #252525; color: #bbb; font-size: 0.65rem; padding: 2px 8px; border-radius: 999px;">Drinks</span>
+                  </div>
+                  <div class="mockup-row">
+                    <span>Crispy Golden Burger</span>
+                    <span style="color: var(--gold-primary); font-weight: bold;">$8.50</span>
+                  </div>
+                  <div class="mockup-row">
+                    <span>Loaded Truffle Fries</span>
+                    <span style="color: var(--gold-primary); font-weight: bold;">$4.20</span>
+                  </div>
+                  <div class="mockup-btn">
+                    Order Summary &bull; Checkout &rarr;
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project Content -->
+            <div class="project-content">
+              <span class="project-num">PROJECT 02 &bull; FRONTEND WEB APPLICATION</span>
+              <h3 class="project-title">Food Ordering Website</h3>
+              <p class="project-desc">
+                Developed a responsive food ordering web application allowing users to browse categorized menus and manage orders efficiently. Implemented dynamic add-to-cart layout, order summary features, and cross-browser responsiveness using modern Flexbox and CSS Grid.
+              </p>
+              <div class="tech-tags">
+                <span class="tech-tag">HTML5 Semantic Elements</span>
+                <span class="tech-tag">CSS3 Flexbox &amp; Grid</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Responsive Layout</span>
+              </div>
+              <div>
+                <a href="https://github.com/purwarmanas" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  View on GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         CONTACT SECTION
+         ======================================================================= -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header-centered">
+          <h2 class="section-title">Let&rsquo;s Connect</h2>
+          <p class="section-desc">
+            Open for software development internships, full-stack projects, and engineering discussions.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Links Panel -->
+          <div class="contact-card">
+            <h3 class="skill-title">Direct Inquiries</h3>
+            <p style="font-size: 0.9375rem; color: var(--text-muted); margin-bottom: 20px;">
+              Feel free to reach out directly via email or phone. I look forward to connecting with recruiters and developers!
+            </p>
+
+            <div class="contact-list">
+              <a href="mailto:purwarmanas2@gmail.com" class="contact-item">
+                <div class="contact-icon" aria-hidden="true">@</div>
+                <div class="contact-meta">
+                  <span class="contact-label">Email Address</span>
+                  <span class="contact-val">purwarmanas2@gmail.com</span>
+                </div>
+              </a>
+
+              <a href="tel:+918979151556" class="contact-item">
+                <div class="contact-icon" aria-hidden="true">&#9742;</div>
+                <div class="contact-meta">
+                  <span class="contact-label">Phone</span>
+                  <span class="contact-val">+91-8979151556</span>
+                </div>
+              </a>
+
+              <a href="https://linkedin.com/in/purwarmanas" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <div class="contact-icon" aria-hidden="true">in</div>
+                <div class="contact-meta">
+                  <span class="contact-label">LinkedIn</span>
+                  <span class="contact-val">linkedin.com/in/purwarmanas</span>
+                </div>
+              </a>
+
+              <a href="https://github.com/purwarmanas" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <div class="contact-icon" aria-hidden="true">git</div>
+                <div class="contact-meta">
+                  <span class="contact-label">GitHub</span>
+                  <span class="contact-val">github.com/purwarmanas</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Clean Contact Form -->
+          <div class="contact-card">
+            <form class="contact-form" action="mailto:purwarmanas2@gmail.com" method="post" enctype="text/plain">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Full Name</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Recruiter / Collaborator" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. recruiter@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="Internship Opportunity / Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message</label>
+                <textarea id="contact-message" name="message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-gold" style="width: 100%;">
+                Send Message via Email Client &rarr;
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <span class="brand-logo" style="font-size: 1.1rem;">
+        Manas Purwar<span class="brand-dot">.</span>
+      </span>
+
+      <nav class="footer-nav" aria-label="Footer Navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
